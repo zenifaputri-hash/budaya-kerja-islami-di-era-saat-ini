@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastery: Budaya Kerja Islami Modern | TJKT Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #064e3b;
+            --accent: #b45309;
+            --bg-light: #f8fafc;
+            --white: #ffffff;
+            --text-main: #1e293b;
+            --border: #e2e8f0;
+        }
+
+        * { box-sizing: border-box; scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; margin: 0; background: var(--bg-light); color: var(--text-main); line-height: 1.8; }
+
+        /* Header & Hero */
+        header { 
+            background: linear-gradient(135deg, #064e3b 0%, #065f46 100%);
+            color: white; 
+            padding: 100px 20px; 
+            text-align: center;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0% 100%);
+        }
+
+        .nav-bar { background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); padding: 15px; text-align: center; position: sticky; top: 0; z-index: 1000; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+        .nav-bar a { color: var(--primary); text-decoration: none; margin: 0 15px; font-weight: 600; font-size: 0.9rem; transition: 0.3s; }
+        .nav-bar a:hover { color: var(--accent); }
+
+        .container { max-width: 1100px; margin: auto; padding: 60px 20px; }
+
+        /* Dalil Section */
+        .section-title { text-align: center; font-size: 2.5rem; color: var(--primary); margin-bottom: 50px; }
+        
+        .dalil-card { background: var(--white); border-radius: 20px; padding: 40px; margin-bottom: 40px; border: 1px solid var(--border); position: relative; overflow: hidden; }
+        .dalil-card::before { content: "📖"; position: absolute; top: -10px; right: 10px; font-size: 5rem; opacity: 0.05; }
+        
+        .arabic { font-family: 'Amiri', serif; font-size: 1.8rem; text-align: right; direction: rtl; color: var(--primary); margin-bottom: 20px; line-height: 2.5; }
+        .translation { font-style: italic; color: #475569; border-left: 4px solid var(--accent); padding-left: 20px; }
+
+        /* Detailed Values Section */
+        .value-detail { display: flex; flex-direction: column; gap: 40px; margin-top: 60px; }
+        .value-item { background: white; padding: 40px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.02); display: flex; gap: 30px; align-items: flex-start; }
+        .value-icon { font-size: 2.5rem; background: var(--bg-light); padding: 20px; border-radius: 12px; }
+        .value-content h3 { margin-top: 0; color: var(--primary); font-size: 1.5rem; }
+        .value-content p { color: #64748b; font-size: 1.05rem; }
+
+        /* TJKT Specific */
+        .tjkt-info { background: #1e293b; color: white; padding: 60px; border-radius: 30px; margin-top: 80px; text-align: center; }
+        .tjkt-info h2 { color: #34d399; }
+
+        footer { background: #0f172a; color: #94a3b8; text-align: center; padding: 40px; margin-top: 80px; }
+
+        @media (max-width: 768px) {
+            .value-item { flex-direction: column; text-align: center; }
+            .arabic { font-size: 1.4rem; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Integrasi Iman & Teknologi</h1>
+    <p style="font-size: 1.2rem; max-width: 700px; margin: 20px auto; opacity: 0.9;">Manifestasi Budaya Kerja Islami di Era Transformasi Digital dan Jaringan Telekomunikasi.</p>
+</header>
+
+<div class="nav-bar">
+    <a href="#landasan">Landasan Syar'i</a>
+    <a href="#pilar">Pilar Budaya Kerja</a>
+    <a href="#tjkt">Implementasi TJKT</a>
+</div>
+
+<div class="container">
+    
+    <section id="landasan">
+        <h2 class="section-title">Landasan Teologis</h2>
+        
+        <div class="dalil-card">
+            <h3>Al-Qur'an: Etos Kerja & Pengawasan Ilahi</h3>
+            <div class="arabic">وَقُلِ اعْمَلُوا فَسَيَرَى اللَّهُ عَمَلَكُمْ وَرَسُولُهُ وَالْمُؤْمِنُونَ ۖ وَسَتُرَدُّونَ إِلَىٰ عَالِمِ الْغَيْبِ وَالشَّهَادَةِ فَيُنَبِّئُكُمْ بِمَا كُنْتُمْ تَعْمَلُونَ</div>
+            <p class="translation">"Dan Katakanlah: 'Bekerjalah kamu, maka Allah dan Rasul-Nya serta orang-orang mukmin akan melihat pekerjaanmu itu, dan kamu akan dikembalikan kepada (Allah) Yang Mengetahui akan yang ghaib dan yang nyata, lalu diberitakan-Nya kepada kamu apa yang telah kamu kerjakan.'" (QS. At-Taubah: 105)</p>
+            <p style="margin-top:20px;"><strong>Tafsir Singkat:</strong> Ayat ini menegaskan bahwa setiap gerak-gerik kita dalam bekerja tidak luput dari pengawasan Allah. Bekerja bukan sekadar mencari materi, melainkan sebuah pertanggungjawaban di hadapan Sang Pencipta.</p>
+        </div>
+
+        <div class="dalil-card">
+            <h3>Al-Hadits: Profesionalisme (Itqan)</h3>
+            <p style="font-size: 1.1rem; color: var(--primary); font-weight: bold;">"Sesungguhnya Allah mencintai seseorang yang apabila ia mengerjakan suatu pekerjaan, ia melakukannya secara Itqan." (HR. Thabrani)</p>
+            <p class="translation">Itqan bermakna melakukan sesuatu secara sempurna, teliti, dan profesional. Dalam dunia IT, ini berarti melakukan konfigurasi tanpa celah, pengkabelan yang rapi, dan keamanan data yang maksimal.</p>
+        </div>
+    </section>
+
+    <section id="pilar">
+        <h2 class="section-title">5 Pilar Utama Profesionalisme</h2>
+        
+        <div class="value-detail">
+            <div class="value-item">
+                <div class="value-icon">💎</div>
+                <div class="value-content">
+                    <h3>1. Kejujuran (Shiddiq)</h3>
+                    <p>Kejujuran adalah pondasi utama. Dalam bekerja, Shiddiq berarti berani menyampaikan fakta teknis apa adanya. Jika sebuah sistem memiliki celah keamanan, kita wajib melaporkannya secara jujur tanpa manipulasi data atau menutupi kegagalan sistem demi reputasi pribadi.</p>
+                </div>
+            </div>
+
+            <div class="value-item">
+                <div class="value-icon">🛡️</div>
+                <div class="value-content">
+                    <h3>2. Amanah (Integritas)</h3>
+                    <p>Amanah mencakup penjagaan terhadap aset perusahaan dan kerahasiaan data pengguna. Di bidang TJKT, privasi data adalah amanah besar. Mengakses data pribadi orang lain tanpa izin atau menyalahgunakan hak akses server adalah bentuk pengkhianatan terhadap prinsip Amanah.</p>
+                </div>
+            </div>
+
+            <div class="value-item">
+                <div class="value-icon">⚖️</div>
+                <div class="value-content">
+                    <h3>3. Tanggung Jawab (Mas'uliyyah)</h3>
+                    <p>Setiap teknisi bertanggung jawab penuh atas konfigurasi yang dibuatnya. Jika terjadi <i>downtime</i> atau gangguan jaringan, seorang profesional Islami tidak akan melempar kesalahan pada orang lain, melainkan segera mengambil tindakan perbaikan sebagai bentuk tanggung jawab moral.</p>
+                </div>
+            </div>
+
+            <div class="value-item">
+                <div class="value-icon">🤝</div>
+                <div class="value-content">
+                    <h3>4. Kerja Sama (Ta’awun)</h3>
+                    <p>Proyek teknologi informasi tidak bisa dikerjakan sendirian. Sesuai prinsip <i>Ta’awun 'alal birri wat taqwa</i> (tolong-menolong dalam kebaikan), tim jaringan harus saling mendukung, berbagi ilmu (transfer knowledge), dan bekerja sama demi mencapai target organisasi yang bermanfaat bagi umat.</p>
+                </div>
+            </div>
+
+            <div class="value-item">
+                <div class="value-icon">⏱️</div>
+                <div class="value-content">
+                    <h3>5. Disiplin & Profesionalisme</h3>
+                    <p>Disiplin waktu mencerminkan karakter seorang mukmin. Dalam TJKT, disiplin diwujudkan melalui ketepatan waktu dalam <i>maintenance</i> berkala dan kepatuhan terhadap SOP (Standard Operating Procedure) yang telah ditetapkan untuk menjaga kestabilan layanan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tjkt" class="tjkt-info">
+        <h2>Relevansi TJKT dalam Syiar Digital</h2>
+        <p>Sebagai praktisi <strong>Teknik Jaringan Komputer dan Telekomunikasi</strong>, kita adalah penyedia "jalan raya" bagi informasi. Dengan menerapkan budaya kerja Islami, kita memastikan bahwa infrastruktur yang kita bangun menjadi wasilah (perantara) tersebarnya kebaikan, dakwah, dan ekonomi syariah yang transparan dan aman bagi seluruh dunia.</p>
+    </section>
+
+</div>
+
+<footer>
+    <p>Project Budaya Kerja Islami &copy; 2026 | Siswa TJKT Indonesia</p>
+    <p style="font-size: 0.8rem; margin-top: 10px;">Dibuat dengan semangat <strong>Itqan</strong> dan <strong>Integritas</strong></p>
+</footer>
+
+</body>
+</html>
